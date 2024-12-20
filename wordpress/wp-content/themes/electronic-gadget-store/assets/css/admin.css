@@ -1,0 +1,262 @@
+.electronic-gadget-store-getting-started-notice {
+    padding: 20px 10px;
+}
+h2.electronic-gadget-store-notice-h2 {
+    margin: 0 0 10px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.electronic-gadget-store-push-down {
+    padding-top: 15px;
+    display: inline-block;
+    padding-left: 8px;
+}
+.electronic-gadget-store-theme-notice-content .electronic-gadget-store-push-down {
+    padding-top: 0;
+}
+.electronic-gadget-store-theme-notice-content .plugin-install-notice{
+    padding: 10px 0;
+}
+/** Theme about page css */
+.green.button {
+    background: none #5cb85c;
+    border-color: #4cae4c;
+    color: #ffffff;
+}
+.about-wrap.full-width-layout {
+    max-width: 100%;
+}
+.about-wrap .about-description,
+.about-wrap .about-text {
+    font-size: 17px;
+}
+.about-wrap h1,.theme-description .about-text {
+    margin: 0;
+}
+.about-wrap h2 {
+    text-align: left;
+}
+.about-theme {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 1.105263157894737em;
+    width: 100%;
+}
+.theme-description,
+.theme-screenshot {
+    width: 100%;
+}
+.theme-screenshot {
+    order: 1;
+}
+.theme-description {
+    margin-top: 1.105263157894737em;
+    order: 2;
+}
+.theme-description .actions {
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+.col .button {
+    margin-top: 7px;
+}
+.about-wrap h2 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 0;
+}
+.about-wrap .two-col .col {
+    padding: 2em 2em 1em 2em;
+    background-color: #fff;
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+    min-width: auto;
+}
+pre.changelog {
+    font-size: 13px;
+    background-color: #f5f5f5;
+    border: 1px solid #d4d4d4;
+    display: block;
+    line-height: 19px;
+    margin-bottom: 10px;
+    overflow: visible;
+    overflow-y: visible;
+    overflow-y: hidden;
+    padding: 14px;
+}
+.vs-theme-table table {
+    border-collapse: collapse;
+}
+.vs-theme-table th {
+    border: 1px solid #e0e0e0;
+    padding: 1em;
+}
+.vs-theme-table td {
+    border: 1px solid #e0e0e0;
+    border-collapse: collapse;
+    padding: 0.8em;
+    text-align: center;
+}
+.vs-theme-table .dashicons {
+    font-size: 32px;
+    font-size: 2rem;
+    width: unset;
+    height: unset;
+}
+.vs-theme-table .dashicons-saved {
+    color: #4ca54c;
+}
+.vs-theme-table .dashicons-no-alt {
+    color: #c83842;
+}
+.vs-theme-table tr:nth-child(even) {
+    background-color: #ebebeb;
+}
+.vs-theme-table table {
+    width: 100%;
+}
+.vs-theme-table th:last-child,
+.vs-theme-table th:first-child {
+    width: 33%;
+}
+@media screen and (min-width: 872px) {
+    .about-wrap .two-col .col {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .about-theme,
+    .about-wrap [class$="-col"] {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+    .about-wrap .theme-description {
+        margin-top: 0;
+        order: 1;
+        padding-right: 2em;
+        width: 70%;
+    }
+    .about-wrap .theme-screenshot {
+        order: 2;
+        width: 30%;
+    }
+}
+.changelog .block {
+    padding: 7px 14px;
+}
+.changelog .block:nth-of-type(odd) {
+    background-color: #e6e6e6;
+}
+.changelog .block:nth-of-type(even) {
+    background-color: #efefef;
+}
+.changelog .block span {
+    display: block;
+    padding: 2px;
+}
+.col input#myInput {
+    border: none;
+    width: 80px;
+}
+/*demo import css*/
+.col.card.demo-btn{
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    padding: 4em;
+    min-width: 500px;
+    max-width: 687px;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    background: #fff;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+.col.card.success-demo{
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    padding: 2em;
+    min-width: 500px;
+    max-width: 687px;
+    height: 200px;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    background: #fff;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+.col.card.demo-btn .demo-title{
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.col.card.demo-btn .demo-des{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.imp-success{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.col.card.demo-btn input.button.button-primary, 
+.col.card.success-demo .button-primary {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #4a90e2, #357ab8); /* Blue gradient */
+    border: 1px solid #357ab8;
+    box-shadow: 0px 5px 0px #2e6791, 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.col.card.demo-btn input.button.button-primary:hover, 
+.col.card.success-demo .button-primary:hover {
+    background: linear-gradient(145deg, #357ab8, #4a90e2);
+    border-color: #2e6791;
+    box-shadow: 0px 2px 0px #2e6791, 0px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(3px);
+}
+.col.card a, .col .button{
+     font-weight: 600;
+    font-size: 14px;
+    padding: 5px 20px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #4a90e2, #357ab8); /* Blue gradient */
+    border: 1px solid #357ab8;
+    box-shadow: 0px 5px 0px #2e6791, 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.col.card a:hover,.col .button:hover {
+    background: linear-gradient(145deg, #357ab8, #4a90e2);
+    border-color: #2e6791;
+    box-shadow: 0px 2px 0px #2e6791, 0px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(3px);
+}
+.wp-core-ui .button-primary.demo{
+    background-color: #46b122;
+    border-color: #59b21b;
+}
+.wp-core-ui .button-primary.demo:hover{
+    background-color: #4f8429;
+}

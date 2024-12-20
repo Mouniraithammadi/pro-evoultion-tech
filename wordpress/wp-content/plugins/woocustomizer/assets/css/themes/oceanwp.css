@@ -1,0 +1,13 @@
+.customize-control {
+	margin-bottom: 20px;
+}
+.customize-control-checkbox label {
+	display: inline-block;
+	margin: 0 0 15px;
+	max-width: 235px;
+}
+#customize-controls .description {
+	margin-left: 0 !important;
+	text-transform: none;
+	font-weight: 400;
+}
